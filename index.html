@@ -3,37 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
+    <title>About Ola</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <button class="dark-mode-toggle">Toggle Dark Mode</button>
-    
     <header>
         <nav>
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="education.html">Education</a></li>
-                <li><a href="hobbies.html">Hobbies</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="projects.html">Projects</a></li>
             </ul>
         </nav>
     </header>
-    
-    <section id="popup" class="popup hidden">
-        <div class="popup-content">
-            <span class="close-popup">&times;</span>
-            <h2>Welcome to My Portfolio</h2>
-            <p>Explore my projects, skills, and achievements!</p>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to Ola's World</h1>
+            <h2>Cloud | DevOps | Machine Learning | Automation</h2>
+            <p>🚀 Crafting scalable, secure, and high-performance cloud solutions.</p>
+        </div>
+        <div class="profile-image">
+            <img src="profile.jpg" alt="Ola's Profile Picture">
         </div>
     </section>
-    
-    <section id="chart-section" class="section">
-        <h2>📊 Skills Overview</h2>
-        <canvas id="skillsChart"></canvas>
+
+    <section class="about-section">
+        <h2>About Me</h2>
+        <p>
+            As a **Cloud/DevOps Engineer** with <strong>9 years of experience</strong>, I specialize in designing, deploying, and managing **scalable cloud infrastructure solutions**. My expertise includes **AWS, CI/CD pipelines, container orchestration, and Infrastructure as Code (IaC)**, ensuring **high availability, optimized performance, and robust security**. 
+        </p>
     </section>
+
+    <section class="slider-container">
+        <h2>Hobbies & Education</h2>
+        <div class="slider">
+            <div class="slide">
+                <h3>🎨 Hobbies</h3>
+                <p>🎮 Gaming | 📚 Reading | 🎵 Music | ✈️ Traveling</p>
+            </div>
+            <div class="slide">
+                <h3>🎓 Education</h3>
+                <p>Master’s in Software Engineering – UT Dallas</p>
+                <p>Bachelor’s in Computer Science – Your University</p>
+            </div>
+        </div>
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
+    </section>
+
 </body>
 </html>
